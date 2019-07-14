@@ -3,8 +3,8 @@ const Web3 = require('web3');//web3 constructor
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-    '--replace me--',// your 12 word mneumonic goes here
-    'https://rinkeby.infura.io/############7'//your enfura endpoint goes here
+    'syrup middle forget enough order school text run range goddess member kid',// your 12 word mneumonic goes here
+    'mainnet.infura.io/v3/1c47c781c64b42679a31eee9ab643097'//your enfura endpoint goes here
 );
 const web3 = new Web3(provider);
 
